@@ -13,17 +13,21 @@ using namespace std;
 
 int main() 
 {
-    Person *mitchell = new Person("Mitchell", "Borchers", 26, true, true);
-    mitchell->print();
-    cout << mitchell->getName() << endl;
-
-    if (mitchell->isEmployed())
+    Person *mars = new Person("Marsellus", "Wallace", 42, false, false);
+    Person jobs("Steve", "Jobs", 56, true, true);
+    mars->print();
+    jobs.print();
+    cout << mars->getName() << endl;
+    cout << jobs.getName() << endl;
+    if (mars->isEmployed() || jobs.isEmployed())
     {
-        cout << mitchell->getName() << " has a job!" << endl;
+        cout << mars->getName() << " has a job?!" << endl;
+        cout << jobs.getName() << " has a job." << endl;
     } else {
-        cout << mitchell->getName() << " is in between jobs." << endl;
+        cout << mars->getName() << " is in between jobs." << endl;
+        cout << jobs.getName() << " has a job." << endl;
     }
 
-    delete mitchell;
+    delete mars;
     return 0;
 }
