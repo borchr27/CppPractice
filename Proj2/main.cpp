@@ -1,5 +1,5 @@
 // Author: Mitchell Borchers
-// helpdesk-- 
+// helpdesk-- practicing w pointers and classes and objs
 // REALLY GOOD TUT: https://www.youtube.com/watch?v=pJ65HIjnTsE
 // MOST HELPFUL ITEM: https://stackoverflow.com/questions/47665886/vs-code-will-not-build-c-programs-with-multiple-ccp-source-files
 // GOOGLE SEARCH: https://www.google.com/search?q=how+do+i+compile+a+c%2B%2B+main+file+that+is+also+linked+to+other+cpp+files+on+vs+code%3F&oq=how+do+i+compile+a+c%2B%2B+main+file+that+is+also+linked+to+other+cpp+files+on+vs+code%3F&aqs=chrome..69i57.44233j0j7&sourceid=chrome&ie=UTF-8
